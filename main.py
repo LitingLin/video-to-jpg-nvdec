@@ -133,12 +133,12 @@ def main():
                 success_count += 1
                 if log_dir is not None:
                     with open(os.path.join(log_dir, 'success'), 'a') as f:
-                        f.write(vid_file)
+                        f.write(f'{vid_file}\n')
             else:
                 failure_count += 1
                 if log_dir is not None:
                     with open(os.path.join(log_dir, 'fail'), 'a') as f:
-                        f.write(vid_file)
+                        f.write(f'{vid_file}\n')
             progress_bar.update()
 
 
