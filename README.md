@@ -37,8 +37,8 @@ optional arguments:
 ```
 ```input_file_list``` should contain video files line-by-line, like:
 ```
-\path\to\vid_a.mp4
-\path\to\vid_b.mp4
+/path/to/vid_a.mp4
+/path/to/vid_b.mp4
 ```
 A typical usage with CUDA ID ```0,1``` enabled:
 ```shell
